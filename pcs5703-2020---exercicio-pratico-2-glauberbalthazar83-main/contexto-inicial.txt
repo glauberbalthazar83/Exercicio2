@@ -1,0 +1,21 @@
+Imprimir as salas e os agentes delas do início do programa
+Sala Nome: Sala0, ID: 20
+Agente: nome: Agente5, ID: 5
+Agente: nome: Agente6, ID: 6
+Agente: nome: Agente7, ID: 7
+Sala Nome: Sala1, ID: 21
+Agente: nome: Agente8, ID: 8
+Agente: nome: Agente9, ID: 9
+Agente: nome: Agente10, ID: 10
+Sala Nome: Sala2, ID: 22
+Agente: nome: Agente11, ID: 11
+Agente: nome: Agente12, ID: 12
+Agente: nome: Agente13, ID: 13
+Sala Nome: Sala3, ID: 23
+Agente: nome: Agente14, ID: 14
+Agente: nome: Agente15, ID: 15
+Agente: nome: Agente16, ID: 16
+Sala Nome: Sala4, ID: 24
+Agente: nome: Agente17, ID: 17
+Agente: nome: Agente18, ID: 18
+Agente: nome: Agente19, ID: 19

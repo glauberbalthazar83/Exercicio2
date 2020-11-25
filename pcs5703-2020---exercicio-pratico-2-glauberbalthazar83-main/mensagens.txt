@@ -1,0 +1,280 @@
+Mundo criado: World successfully created.
+
+Mundo criado com sucesso!
+
+Criar 15 agentes
+Agente {Agente -  Nome: Agente5, ID: 5} criado com sucesso!
+Agente {Agente -  Nome: Agente6, ID: 6} criado com sucesso!
+Agente {Agente -  Nome: Agente7, ID: 7} criado com sucesso!
+Agente {Agente -  Nome: Agente8, ID: 8} criado com sucesso!
+Agente {Agente -  Nome: Agente9, ID: 9} criado com sucesso!
+Agente {Agente -  Nome: Agente10, ID: 10} criado com sucesso!
+Agente {Agente -  Nome: Agente11, ID: 11} criado com sucesso!
+Agente {Agente -  Nome: Agente12, ID: 12} criado com sucesso!
+Agente {Agente -  Nome: Agente13, ID: 13} criado com sucesso!
+Agente {Agente -  Nome: Agente14, ID: 14} criado com sucesso!
+Agente {Agente -  Nome: Agente15, ID: 15} criado com sucesso!
+Agente {Agente -  Nome: Agente16, ID: 16} criado com sucesso!
+Agente {Agente -  Nome: Agente17, ID: 17} criado com sucesso!
+Agente {Agente -  Nome: Agente18, ID: 18} criado com sucesso!
+Agente {Agente -  Nome: Agente19, ID: 19} criado com sucesso!
+
+Criar 5 salas
+Sala {Sala -  Nome: Sala0, ID: 20} criado com sucesso!
+Sala {Sala -  Nome: Sala1, ID: 21} criado com sucesso!
+Sala {Sala -  Nome: Sala2, ID: 22} criado com sucesso!
+Sala {Sala -  Nome: Sala3, ID: 23} criado com sucesso!
+Sala {Sala -  Nome: Sala4, ID: 24} criado com sucesso!
+
+Distribuir os agentes por salas (3 por sala)
+Agent {Agente -  Nome: Agente5, ID: 5} add a sala {Sala -  Nome: Sala0, ID: 20} com sucesso.
+Agent {Agente -  Nome: Agente6, ID: 6} add a sala {Sala -  Nome: Sala0, ID: 20} com sucesso.
+Agent {Agente -  Nome: Agente7, ID: 7} add a sala {Sala -  Nome: Sala0, ID: 20} com sucesso.
+Agent {Agente -  Nome: Agente8, ID: 8} add a sala {Sala -  Nome: Sala1, ID: 21} com sucesso.
+Agent {Agente -  Nome: Agente9, ID: 9} add a sala {Sala -  Nome: Sala1, ID: 21} com sucesso.
+Agent {Agente -  Nome: Agente10, ID: 10} add a sala {Sala -  Nome: Sala1, ID: 21} com sucesso.
+Agent {Agente -  Nome: Agente11, ID: 11} add a sala {Sala -  Nome: Sala2, ID: 22} com sucesso.
+Agent {Agente -  Nome: Agente12, ID: 12} add a sala {Sala -  Nome: Sala2, ID: 22} com sucesso.
+Agent {Agente -  Nome: Agente13, ID: 13} add a sala {Sala -  Nome: Sala2, ID: 22} com sucesso.
+Agent {Agente -  Nome: Agente14, ID: 14} add a sala {Sala -  Nome: Sala3, ID: 23} com sucesso.
+Agent {Agente -  Nome: Agente15, ID: 15} add a sala {Sala -  Nome: Sala3, ID: 23} com sucesso.
+Agent {Agente -  Nome: Agente16, ID: 16} add a sala {Sala -  Nome: Sala3, ID: 23} com sucesso.
+Agent {Agente -  Nome: Agente17, ID: 17} add a sala {Sala -  Nome: Sala4, ID: 24} com sucesso.
+Agent {Agente -  Nome: Agente18, ID: 18} add a sala {Sala -  Nome: Sala4, ID: 24} com sucesso.
+Agent {Agente -  Nome: Agente19, ID: 19} add a sala {Sala -  Nome: Sala4, ID: 24} com sucesso.
+Imprimir as salas e os agentes delas do início do programa
+Sala Nome: Sala0, ID: 20
+Agente: nome: Agente5, ID: 5
+Agente: nome: Agente6, ID: 6
+Agente: nome: Agente7, ID: 7
+Sala Nome: Sala1, ID: 21
+Agente: nome: Agente8, ID: 8
+Agente: nome: Agente9, ID: 9
+Agente: nome: Agente10, ID: 10
+Sala Nome: Sala2, ID: 22
+Agente: nome: Agente11, ID: 11
+Agente: nome: Agente12, ID: 12
+Agente: nome: Agente13, ID: 13
+Sala Nome: Sala3, ID: 23
+Agente: nome: Agente14, ID: 14
+Agente: nome: Agente15, ID: 15
+Agente: nome: Agente16, ID: 16
+Sala Nome: Sala4, ID: 24
+Agente: nome: Agente17, ID: 17
+Agente: nome: Agente18, ID: 18
+Agente: nome: Agente19, ID: 19
+{"id":"5","name":"Agente5","messages":[],"actions":[]}
+Dados do agente  {5} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[]},{"id":"6","name":"Agente6","messages":[],"actions":[]},{"id":"7","name":"Agente7","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"22","name":"Sala2","agents":[{"id":"11","name":"Agente11","messages":[],"actions":[]},{"id":"12","name":"Agente12","messages":[],"actions":[]},{"id":"13","name":"Agente13","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {22} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]}
+{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]}
+Plano de acao do agent ID  {5} recuperado com sucesso!
+{"id":"6","name":"Agente6","messages":[],"actions":[]}
+Dados do agente  {6} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[]},{"id":"7","name":"Agente7","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"23","name":"Sala3","agents":[{"id":"14","name":"Agente14","messages":[],"actions":[]},{"id":"15","name":"Agente15","messages":[],"actions":[]},{"id":"16","name":"Agente16","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {23} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}
+{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}
+Plano de acao do agent ID  {6} recuperado com sucesso!
+{"id":"7","name":"Agente7","messages":[],"actions":[]}
+Dados do agente  {7} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"23","name":"Sala3","agents":[{"id":"14","name":"Agente14","messages":[],"actions":[]},{"id":"15","name":"Agente15","messages":[],"actions":[]},{"id":"16","name":"Agente16","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {23} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}
+{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}
+Plano de acao do agent ID  {7} recuperado com sucesso!
+{"id":"8","name":"Agente8","messages":[],"actions":[]}
+Dados do agente  {8} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"23","name":"Sala3","agents":[{"id":"14","name":"Agente14","messages":[],"actions":[]},{"id":"15","name":"Agente15","messages":[],"actions":[]},{"id":"16","name":"Agente16","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {23} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]}
+{"id":"8","name":"Agente8","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]}
+Plano de acao do agent ID  {8} recuperado com sucesso!
+{"id":"9","name":"Agente9","messages":[],"actions":[]}
+Dados do agente  {9} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"24","name":"Sala4","agents":[{"id":"17","name":"Agente17","messages":[],"actions":[]},{"id":"18","name":"Agente18","messages":[],"actions":[]},{"id":"19","name":"Agente19","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {24} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"24"}]}
+{"id":"9","name":"Agente9","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"24"}]}
+Plano de acao do agent ID  {9} recuperado com sucesso!
+{"id":"10","name":"Agente10","messages":[],"actions":[]}
+Dados do agente  {10} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"21","name":"Sala1","agents":[{"id":"8","name":"Agente8","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]},{"id":"9","name":"Agente9","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"24"}]},{"id":"10","name":"Agente10","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {21} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]}
+{"id":"10","name":"Agente10","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]}
+Plano de acao do agent ID  {10} recuperado com sucesso!
+{"id":"11","name":"Agente11","messages":[],"actions":[]}
+Dados do agente  {11} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"21","name":"Sala1","agents":[{"id":"8","name":"Agente8","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]},{"id":"9","name":"Agente9","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"24"}]},{"id":"10","name":"Agente10","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]}],"messages":[]}
+Dados da sala  {21} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]}
+{"id":"11","name":"Agente11","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]}
+Plano de acao do agent ID  {11} recuperado com sucesso!
+{"id":"12","name":"Agente12","messages":[],"actions":[]}
+Dados do agente  {12} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"23","name":"Sala3","agents":[{"id":"14","name":"Agente14","messages":[],"actions":[]},{"id":"15","name":"Agente15","messages":[],"actions":[]},{"id":"16","name":"Agente16","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {23} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]}
+{"id":"12","name":"Agente12","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]}
+Plano de acao do agent ID  {12} recuperado com sucesso!
+{"id":"13","name":"Agente13","messages":[],"actions":[]}
+Dados do agente  {13} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"22","name":"Sala2","agents":[{"id":"11","name":"Agente11","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]},{"id":"12","name":"Agente12","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]},{"id":"13","name":"Agente13","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {22} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"22"}]}
+{"id":"13","name":"Agente13","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"22"}]}
+Plano de acao do agent ID  {13} recuperado com sucesso!
+{"id":"14","name":"Agente14","messages":[],"actions":[]}
+Dados do agente  {14} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"20"}]}
+{"id":"14","name":"Agente14","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"20"}]}
+Plano de acao do agent ID  {14} recuperado com sucesso!
+{"id":"15","name":"Agente15","messages":[],"actions":[]}
+Dados do agente  {15} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"20"}]}
+{"id":"15","name":"Agente15","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"20"}]}
+Plano de acao do agent ID  {15} recuperado com sucesso!
+{"id":"16","name":"Agente16","messages":[],"actions":[]}
+Dados do agente  {16} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"22","name":"Sala2","agents":[{"id":"11","name":"Agente11","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]},{"id":"12","name":"Agente12","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]},{"id":"13","name":"Agente13","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"22"}]}],"messages":[]}
+Dados da sala  {22} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"22"}]}
+{"id":"16","name":"Agente16","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"22"}]}
+Plano de acao do agent ID  {16} recuperado com sucesso!
+{"id":"17","name":"Agente17","messages":[],"actions":[]}
+Dados do agente  {17} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"24","name":"Sala4","agents":[{"id":"17","name":"Agente17","messages":[],"actions":[]},{"id":"18","name":"Agente18","messages":[],"actions":[]},{"id":"19","name":"Agente19","messages":[],"actions":[]}],"messages":[]}
+Dados da sala  {24} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"24"}]}
+{"id":"17","name":"Agente17","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"24"}]}
+Plano de acao do agent ID  {17} recuperado com sucesso!
+{"id":"18","name":"Agente18","messages":[],"actions":[]}
+Dados do agente  {18} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"21","name":"Sala1","agents":[{"id":"8","name":"Agente8","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]},{"id":"9","name":"Agente9","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"24"}]},{"id":"10","name":"Agente10","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]}],"messages":[]}
+Dados da sala  {21} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]}
+{"id":"18","name":"Agente18","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]}
+Plano de acao do agent ID  {18} recuperado com sucesso!
+{"id":"19","name":"Agente19","messages":[],"actions":[]}
+Dados do agente  {19} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"20","name":"Sala0","agents":[{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"20"}]}
+{"id":"19","name":"Agente19","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"20"}]}
+Plano de acao do agent ID  {19} recuperado com sucesso!
+Actions executed successfully
+
+Plano de acao do agent ID  {5} recuperado com sucesso!
+Actions executed successfully
+
+Plano de acao do agent ID  {6} recuperado com sucesso!
+Actions executed successfully
+
+Plano de acao do agent ID  {7} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {8} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {9} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {10} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {11} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {12} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {13} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {14} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {15} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {16} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {17} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {18} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {19} recuperado com sucesso!
+Error while processing actions: null
+
+Plano de acao do agent ID  {20} recuperado com sucesso!
+
+Imprimir as salas e os agentes delas do final do programa
+{"id":"20","name":"Sala0","agents":[],"messages":[]}
+Dados da sala  {20} recuperado com sucesso!
+{"id":"21","name":"Sala1","agents":[{"id":"8","name":"Agente8","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]},{"id":"9","name":"Agente9","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"24"}]},{"id":"10","name":"Agente10","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]}],"messages":[]}
+Dados da sala  {21} recuperado com sucesso!
+{"id":"22","name":"Sala2","agents":[{"id":"11","name":"Agente11","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]},{"id":"12","name":"Agente12","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"23"}]},{"id":"13","name":"Agente13","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"22"}]},{"id":"5","name":"Agente5","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"22"}]}],"messages":[]}
+Dados da sala  {22} recuperado com sucesso!
+{"id":"23","name":"Sala3","agents":[{"id":"14","name":"Agente14","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"20"}]},{"id":"15","name":"Agente15","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"20"}]},{"id":"16","name":"Agente16","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"22"}]},{"id":"6","name":"Agente6","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]},{"id":"7","name":"Agente7","messages":[],"actions":[{"actionType":"leave","actionParameter":"20"},{"actionType":"move","actionParameter":"23"}]}],"messages":[]}
+Dados da sala  {23} recuperado com sucesso!
+{"id":"24","name":"Sala4","agents":[{"id":"17","name":"Agente17","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"24"}]},{"id":"18","name":"Agente18","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"21"}]},{"id":"19","name":"Agente19","messages":[],"actions":[{"actionType":"leave","actionParameter":"0"},{"actionType":"move","actionParameter":"20"}]}],"messages":[]}
+Dados da sala  {24} recuperado com sucesso!
+Sala Nome: Sala0, ID: 20
+Sala Nome: Sala1, ID: 21
+Agente: nome: Agente8, ID: 8
+Agente: nome: Agente9, ID: 9
+Agente: nome: Agente10, ID: 10
+Sala Nome: Sala2, ID: 22
+Agente: nome: Agente11, ID: 11
+Agente: nome: Agente12, ID: 12
+Agente: nome: Agente13, ID: 13
+Agente: nome: Agente5, ID: 5
+Sala Nome: Sala3, ID: 23
+Agente: nome: Agente14, ID: 14
+Agente: nome: Agente15, ID: 15
+Agente: nome: Agente16, ID: 16
+Agente: nome: Agente6, ID: 6
+Agente: nome: Agente7, ID: 7
+Sala Nome: Sala4, ID: 24
+Agente: nome: Agente17, ID: 17
+Agente: nome: Agente18, ID: 18
+Agente: nome: Agente19, ID: 19
